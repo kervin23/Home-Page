@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('bg_img.png') center/cover no-repeat fixed;
+            display: flex;
+            height: 100vh; /* Set body height to 100% of the viewport */
+        }
+
+        aside {
+            background-color: #333;
+            color: white;
+            width: 250px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-y: auto; /* Enable scrolling for the aside */
+            height: 250;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: #504d4d;
+            color: white;
+            display: block;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            height: 40px; /* Set a fixed height for the links */
+            display: flex;
+            align-items: center; /* Center text vertically */
+            justify-content: center; /* Center text horizontally */
+        }
+
+        a:hover {
+            background-color: #777;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            height: 100%; /* Set main height to 100% of the viewport */
+            overflow-y: auto; /* Enable scrolling for the main content */
+        }
+    </style>
+</head>
+<body>
+
+    <aside>
+        <h1>
+            <a class="nav-link" href="RESUME\resume.html.html">My Resume</a>
+        </h1>        
+        <h1>
+            <a class="nav-link" href="MY SELF\myself.html">My Self</a>
+        </h1>        
+        <h1>
+            <a class="nav-link" href="MY FRIENDS\myFriend.html">My Friends</a>
+        </h1>        
+        <h1>
+            <a class="nav-link" href="MY FAVORITE\myFavorite.html">My Favorite</a>
+        </h1>        
+        <h1>
+            <a class="nav-link" href="MY FAMILY\my_family.html">My Family</a>
+        </h1>
+        <!-- Add more links as needed -->
+    </aside>
+
+</body>
+</html>
